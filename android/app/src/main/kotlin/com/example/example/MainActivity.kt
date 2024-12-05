@@ -1,4 +1,4 @@
-package com.example.dart_define_native_config
+package app.example.shop
 
 import io.flutter.embedding.android.FlutterActivity
 
