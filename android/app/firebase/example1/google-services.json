@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "687915399984",
+    "project_id": "dart-define-native-config",
+    "storage_bucket": "dart-define-native-config.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687915399984:android:e6fb4207acaaf313fb26f5",
+        "android_client_info": {
+          "package_name": "com.example1.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO6GizUPZhc3hKqGzqebudM0GR6MQANps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

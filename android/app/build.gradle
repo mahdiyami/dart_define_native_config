@@ -46,9 +46,9 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
-        resValue "string", "deep_link", dartEnvironmentVariables.deepLink ?: "com.example.app"
-        resValue "string", "deep_link_scheme", dartEnvironmentVariables.deep_link_scheme ?: "com.example.app"
-        resValue "string", "app_name", dartEnvironmentVariables.applicationName ?: "com.example.app"
+        resValue "string", "deep_link", dartEnvironmentVariables.deepLink ?: "com.example1.app"
+        resValue "string", "deep_link_scheme", dartEnvironmentVariables.deep_link_scheme ?: "com.example1.app"
+        resValue "string", "app_name", dartEnvironmentVariables.applicationName ?: "com.example1.app"
     }
     signingConfigs {
         release {
@@ -67,6 +67,13 @@ android {
         }
     }
 }
+
+task selectGoogleServicesJson(type: Copy) {
+    from "firebase/${dartEnvironmentVariables.mainName}/google-services.json"
+    into './'
+}
+
+
 flutter {
     source = "../.."
 }

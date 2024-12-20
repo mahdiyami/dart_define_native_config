@@ -1,4 +1,5 @@
 {
+  "mainName": "example2",
   "applicationName": "Example2",
   "baseUrl": "https://example2.com",
   "deepLink": "example2.com",
